@@ -1,5 +1,10 @@
 *{
     outline: 1px solid red;
-    color: #00FF00;
-    color: aqua;
+    box-sizing: border-box;
+    
+}
+
+.calc-container{
+    width: 320px;
+    height: 480px;
 }
