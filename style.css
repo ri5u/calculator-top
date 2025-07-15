@@ -7,4 +7,25 @@
 .calc-container{
     width: 320px;
     height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.screen{
+    width: 300px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    font-size: 100%;
+}
+
+.btn-row{
+    display: flex;
+    justify-content: space-evenly;
 }
