@@ -3,7 +3,6 @@
     box-sizing: border-box;
     
 }
-
 body{
     height: 100vh;
     margin: 0;
@@ -39,10 +38,20 @@ button{
     width: 70px;
     height: 70px;
     font-size: 20px;
-    
 }
 
 .btn-row{
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
+}
+
+.btn-row.row-1{
+    width: 100%;
+}
+
+.btn-row.row-1 > .btn{
+    flex: 1;
+    max-width: 145px;
+}
+
