@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
 *{
     /* outline: 1px solid red; */
     box-sizing: border-box;
@@ -20,7 +22,9 @@ body{
     align-items: center;
     gap: 10px;
     border: 2px solid black;
+    border-radius: 5px;
     padding: 5px;
+    background-color: #000000;
 }
 
 .screen{
@@ -32,12 +36,23 @@ body{
     width: 310px;
     min-height: 70px;
     border: 2px solid grey;
+    border-radius: 5px;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 3rem;
+    overflow: hidden;
+    background-color: #797979;
 }
+
 
 button{
     width: 70px;
     height: 70px;
-    font-size: 20px;
+    font-size: 2rem;
+    font-family: 'Share Tech Mono', monospace;
+    box-shadow: 0 3px 1px #bbb ;
+    border-radius: 5px;
+    
 }
 
 .btn-row{
@@ -53,5 +68,18 @@ button{
 .btn-row.row-1 > .btn{
     flex: 1;
     max-width: 145px;
+    background-color: #EF2938;
 }
+
+.btn.operator{
+    background-color: #00A79D;
+}
+
+.btn-row.row-3 > .btn,
+.btn-row.row-4 > .btn,
+.btn-row.row-5 > .btn{
+    background-color: #606163;
+}
+
+
 
